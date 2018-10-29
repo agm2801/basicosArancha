@@ -33,6 +33,20 @@ public class BasicosArancha {
         System.out.println(entero);
         System.out.println("Valor doble");
         System.out.println(doble);
+     // Método para mostrar ejemplos de tipos cadenas.
+    }
+
+    public static void cadenas() {
+
+        //Estos son los tipos básicos
+        String cadena;
+
+        //Ejemplos de asignación de valores a las variables de tipos básicos
+        cadena = "cadena de String";
+
+        //Mostrar en pantalla el contendido de las variables de tipos básicos.
+        System.out.println("Valor cadena: " + cadena);
+        System.out.println("Valor cadena + cadena: " + (cadena+cadena));
     }
     
     /**
@@ -41,6 +55,7 @@ public class BasicosArancha {
     public static void main(String[] args) {
         // TODO code application logic here
         numericos();
+        cadenas();
     }
     
 }
